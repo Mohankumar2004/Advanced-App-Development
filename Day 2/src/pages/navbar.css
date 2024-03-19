@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: -10px;
+  padding: 10px;
+  height: 65px;
+  width: 100%;
+  margin-left: -10px;
+  border-bottom: 2px solid #7b4397; /* Purple border for the bottom line */
+  background-color: transparent;
+
+}
+.navbar-logo{
+  margin-top: 3px;
+  margin-left: 30px;
+}
+.profile-icon-nav{
+  display: flex;
+  margin-top: 1px;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  text-decoration: none;
+  display: flex;
+  margin-top: 50px;
+  margin: 0 10px;
+  color: white;
+}
+.link{
+  color: black;
+  margin-top: 15px;
+  display: flex;
+  text-decoration: none;
+}
+
+
+
+

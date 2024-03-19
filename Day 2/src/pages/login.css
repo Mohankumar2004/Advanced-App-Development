@@ -1,0 +1,87 @@
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-page {
+  
+  background: rgb(253, 251, 251);
+  height: 600px;
+  width: 1200px; /* Increased width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+}
+.textlogin{
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.login-backgroun {
+  background-image: url('https://d31ezp3r8jwmks.cloudfront.net/nvukto2hmva5bg569r4rgyh9448i');
+  background-size: cover;
+  width: 50%;
+}
+
+.sbackground {
+  background-image: url('https://ps-attachments.s3.amazonaws.com/672bb697-ddd4-4524-94ff-f3637110835e/hBKtt-RMhkQtUCgUt7pC0w.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+}
+
+form {
+  margin-top: 5%;
+  margin-left: 40px;
+  padding: 20px;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-left: 10px;
+  margin-top: 50px
+}
+
+  input[type="email"],
+input[type="password"] {
+  border: 10px;
+  border-bottom: 2px solid #7b4397; /* Purple border for the bottom line */
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 15px;
+  width: calc(100% - 20px); /* Full width minus padding */
+  box-sizing: border-box; /* Include padding in width */
+  transition: border-color 0.3s;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #dc2430; /* Red border for focus */
+}
+
+button[type="submit"] {
+  position: relative;
+  left: 45%;
+  background-color: #7b4397; /* Purple background */
+  color: white;
+  border: none;
+  
+  padding: 10px 20px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #dc2430; /* Red background on hover */
+}
+.noaccount{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
