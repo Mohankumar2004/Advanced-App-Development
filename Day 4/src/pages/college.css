@@ -1,0 +1,70 @@
+/* college.css */
+
+.college-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .college-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .college-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .college {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .college:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .college img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .college-info {
+    margin-top: 10px;
+  }
+  
+  .college h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .college p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .college a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 8px 16px;
+    background-color: #7b4397; /* Purple background */
+
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .college a:hover {
+    background-color: #ae00de;
+  }
+  

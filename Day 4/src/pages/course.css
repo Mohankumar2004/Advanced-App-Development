@@ -1,0 +1,66 @@
+/* CourseList.css */
+
+.filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filter-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filter-container input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .course-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .course {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .course h3 {
+    margin-top: 0;
+  }
+  
+  .course p {
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #7b4397; /* Purple background */
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button-container button:hover {
+    background-color: #ae00de;
+  }
+  
+  .button-container button:focus {
+    outline: none;
+  }
+  
+  .button-container button:active {
+    transform: translateY(1px);
+  }
